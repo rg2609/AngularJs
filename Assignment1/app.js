@@ -21,10 +21,12 @@ function LunchCheckController($scope) {
 			{
 				$scope.resp="Enjoy!";
 			}
+			$scope.lunchClass="text-success";
 		}
 		else
 		{
 			$scope.resp="Please enter data first";
+			$scope.lunchClass="text-danger";
 		}
 	};
 
